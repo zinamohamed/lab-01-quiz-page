@@ -11,7 +11,7 @@ body, html {
 
 p {
   color: white;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-weight: 200;
   padding: 10px;
 }
@@ -131,7 +131,7 @@ p {
   display:flex;
   justify-content: center;
   align-items: center;
-  text-align: left;
+  text-align: center;
   height: 60vh;
   padding: 20px;
 }
@@ -142,17 +142,38 @@ p {
   display: flex;
   flex-direction: column;
   color: white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   
 }
 
 .history-title {
   color:white;
   font-size: 1.5em;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
+  padding-left: 10px;
 }
 
-.history-image {
-  width:500px;
+
+
+.history-p {
+  font-size: 16px;
+  font-family: 'Fira Sans', sans-serif;
+  line-height: 2em;
+  color: white;
+  width:60%;
+  background: #000308;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  margin:10px;
+  
+
+  
 }
 
 /* Third container */
@@ -209,6 +230,8 @@ p {
 }
 
 
-
+#more {
+  display: none;
+}
 
 

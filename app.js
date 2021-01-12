@@ -36,7 +36,7 @@ quizButton.addEventListener('click', () => {
     
     if (!countsAsAYes(firstQuestion)) correctAnswers++;
 
-    const secondQuestion = prompt('Have there been 13 doctors in total?');
+    const secondQuestion = prompt('Does TARDIS stand for "Time and Relative Dimension in Space"?');
 
     if (countsAsAYes(secondQuestion)) correctAnswers++;
 
@@ -52,3 +52,4 @@ quizButton.addEventListener('click', () => {
 
     secretDiv.textContent = resultsString;
 });
+
