@@ -18,6 +18,8 @@ quizButton.addEventListener('click', () => {
     
     if (!confirmation) return;
 
+    alert('Well then, come along pond!');
+
     const firstName = prompt('What is your first name?');
     const lastName = prompt('What is your last name?');
 
@@ -34,7 +36,7 @@ quizButton.addEventListener('click', () => {
     
     if (!countsAsAYes(firstQuestion)) correctAnswers++;
 
-    const secondQuestion = prompt('Have there been 13 doctors in total?');
+    const secondQuestion = prompt('Does TARDIS stand for "Time and Relative Dimension in Space"?');
 
     if (countsAsAYes(secondQuestion)) correctAnswers++;
 
@@ -50,3 +52,4 @@ quizButton.addEventListener('click', () => {
 
     secretDiv.textContent = resultsString;
 });
+
