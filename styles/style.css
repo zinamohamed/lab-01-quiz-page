@@ -9,6 +9,13 @@ body, html {
   box-sizing: border-box;
 }
 
+p {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  padding: 10px;
+}
+
 /* Nav Bar */
 .navbar {
   display: flex;
@@ -159,10 +166,10 @@ body, html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   text-align: center;
   height: 50vh;
-  padding: 20px;
+ 
   
 
 }
@@ -170,7 +177,7 @@ body, html {
 
 
 .quiz {
-  padding: 20px;
+  padding: 10px;
   justify-self: center;
   text-align: center;
   align-items: center;
@@ -179,28 +186,28 @@ body, html {
 .quiz-title {
   color: white;
   font-family: 'Fira Sans', sans-serif;
-  font-size:1.5em;
-  padding:10px;
+  font-size:2em;
+  padding-top:20px;
+  margin:15px;
+  
 }
 
 #quiz-button {
-  background: #bae8e8;
   padding: 10px;
-  color: white;
   border: none;
   font-size: 1em;
-  margin: 10px;
+  margin: 20px;
+  background: transparent;
+  color: white;
+  border: 2px blue solid;
 }
 
-.footer{
-  background-color: #272343;
-  padding: 20px;
-  margin-top:80px;
-  justify-self: center;
-  text-align: center;
-  align-items: center;
-  
+#secret-div {
+  color: white;
+  padding: 10px;
+  margin:10px;
 }
+
 
 
 

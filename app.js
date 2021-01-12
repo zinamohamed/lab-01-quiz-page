@@ -18,6 +18,8 @@ quizButton.addEventListener('click', () => {
     
     if (!confirmation) return;
 
+    alert('Well then, come along pond!');
+
     const firstName = prompt('What is your first name?');
     const lastName = prompt('What is your last name?');
 
